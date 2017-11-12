@@ -1,0 +1,84 @@
+{
+   "key": "com.rauliki.descriptiontemplates",
+   "name": "Description Templates for JIRA Cloud",
+   "version": "1.0",
+   "description": "This is an extension for your JIRA Cloud to allow users to save templates of descriptions and reuse it when create new tickets. See more in http://documentation.mraddon.com",
+   "vendor": {
+      "name": "MrAddon raulpelaez@mraddon.com",
+      "url": "http://www.MrAddon.com"
+   },
+   "baseUrl": "https://raw.githubusercontent.com/rpelaez/DescriptionTemplates/master/",
+   "enableLicensing": true,
+   "authentication": {
+      "type": "none"
+   },
+   
+   
+  "modules": {
+   "webSections": [
+        {
+            "key": "links",
+            "location": "system.user.options",
+			"weight": 10,
+            "name": {
+                "value": "Description Templates"
+            }
+        }
+   
+    ], 
+    "webItems": [
+      {
+        "location": "system.top.navigation.bar",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/description-templates-for/ldfmmniipbadjdhnfphmaahdgbfppjim?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Chrome Description Templates"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "DescTemplates!"
+        },
+        "key": "install-newstatuscolorspro"
+      },
+      {
+        "location": "system.user.options/links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/description-templates-for/ldfmmniipbadjdhnfphmaahdgbfppjim?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Google Chrome"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install in Google Chrome"
+        },
+        "key": "install"
+      }
+      
+    ]
+  }
+
+}
