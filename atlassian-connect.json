@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.descriptiontemplates",
    "name": "Description Templates for JIRA Cloud",
-   "version": "1.1",
+   "version": "1.2",
    "description": "This is an extension for your JIRA Cloud to allow users to save templates of descriptions and reuse it when create new tickets. See more in http://documentation.mraddon.com",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -34,31 +34,7 @@
           "webitem",
           "system-present-webitem"
         ],
-        "url": "/secure/CreateIssue.jspa",
-        "context": "product",
-        "target": {
-          "type": "page"
-        },
-        "tooltip": {
-          "value": "Create new Issue with Description Template"
-        },
-        "icon": {
-          "width": 16,
-          "height": 16,
-          "url": "/icon.png"
-        },
-        "name": {
-          "value": "NewIssue!"
-        },
-        "key": "create-issue"
-      },
-      {
         "location": "system.top.navigation.bar",
-        "weight": 200,
-        "styleClasses": [
-          "webitem",
-          "system-present-webitem"
-        ],
         "url": "https://chrome.google.com/webstore/detail/description-templates-for/ldfmmniipbadjdhnfphmaahdgbfppjim?authuser=1",
         "context": "product",
         "target": {
