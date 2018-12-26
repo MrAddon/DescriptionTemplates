@@ -65,7 +65,7 @@
           "type": "page"
         },
         "tooltip": {
-          "value": "Install in Chrome Description Templates"
+          "value": "Install in Browser Description Templates"
         },
         "icon": {
           "width": 16,
@@ -90,7 +90,7 @@
           "type": "page"
         },
         "tooltip": {
-          "value": "Install in Google Chrome"
+          "value": "Install in Browser"
         },
         "icon": {
           "width": 16,
@@ -98,7 +98,7 @@
           "url": "/icon.png"
         },
         "name": {
-          "value": "Install in Google Chrome"
+          "value": "Install in Browser"
         },
         "key": "install"
       }
