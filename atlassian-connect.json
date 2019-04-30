@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.descriptiontemplates",
    "name": "Description Templates for JIRA Cloud",
-   "version": "2.2",
+   "version": "2.3",
    "description": "This is an extension for your JIRA Cloud to allow users to save templates of descriptions and reuse it when create new tickets. See more in http://documentation.mraddon.com",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -13,6 +13,9 @@
       "type": "none"
    },
    
+   "apiMigrations": {
+        "gdpr": false
+    },
    
   "modules": {
    "webSections": [
