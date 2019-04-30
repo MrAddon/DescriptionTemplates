@@ -14,7 +14,7 @@
    },
    
    "apiMigrations": {
-        "gdpr": false
+        "gdpr": true
     },
    
   "modules": {
